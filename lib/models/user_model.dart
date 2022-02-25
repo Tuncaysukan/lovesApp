@@ -21,7 +21,7 @@ class User extends Equatable {
   List<Object?> get props => [id, name, age, imageUrls, bio, jobTitle];
 
   static List<User> users = [
-    const User(
+     User(
         id: 1,
         name: 'Tuncay',
         age: 30,
@@ -32,6 +32,45 @@ class User extends Equatable {
                   'https://images.unsplash.com/photo-1645699462725-f1ea49938ee2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
         ],
         bio: 'Biyografi',
-        jobTitle: 'Yazılım')
+        jobTitle: 'Yazılım'),
+    User(
+        id: 2,
+        name: 'Tuncayskn',
+        age: 30,
+        imageUrls: [
+          'https://images.unsplash.com/photo-1640622842924-3ae860f77265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80',
+          'https://images.unsplash.com/photo-1640622842924-3ae860f77265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80',
+          'https://images.unsplash.com/photo-1640622842924-3ae860f77265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80',
+          'https://images.unsplash.com/photo-1640622842924-3ae860f77265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80',
+          'https://images.unsplash.com/photo-1640622842924-3ae860f77265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80',
+          'https://images.unsplash.com/photo-1640622842924-3ae860f77265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80',
+        ],
+        bio: 'Biyografi',
+        jobTitle: 'Yazılım'),
+    User(
+        id: 3,
+        name: 'Ahmet',
+        age: 30,
+        imageUrls: [
+          'https://images.unsplash.com/photo-1645389411992-e9ec49b158e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80',
+          'https://images.unsplash.com/photo-1645389411992-e9ec49b158e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80',
+          'https://images.unsplash.com/photo-1645389411992-e9ec49b158e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80',
+          'https://images.unsplash.com/photo-1645389411992-e9ec49b158e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80',
+           'https://images.unsplash.com/photo-1645699462725-f1ea49938ee2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+        ],
+        bio: 'Biyografi',
+        jobTitle: 'Yazılım'),
+    User(
+        id: 4,
+        name: 'Mehmet',
+        age: 30,
+        imageUrls: [
+          'https://images.unsplash.com/photo-1645699462725-f1ea49938ee2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+          'https://images.unsplash.com/photo-1645699462725-f1ea49938ee2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+          'https://images.unsplash.com/photo-1645699462725-f1ea49938ee2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+          'https://images.unsplash.com/photo-1645699462725-f1ea49938ee2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+        ],
+        bio: 'Biyografi',
+        jobTitle: 'Yazılım'),
   ];
 }
